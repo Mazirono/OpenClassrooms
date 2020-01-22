@@ -1,0 +1,58 @@
+body
+{
+    background-color : navy ;
+    color : rgba(255,255,255,1);
+
+}
+
+h1
+{
+	text-align : center;
+	border : 0.7em  red  double;
+	border-radius: 0.7em;
+
+}
+
+mark
+{
+	background-color: yellow;
+}
+
+
+p
+{
+    text-shadow: 6px 6px 6px black inset;
+}
+
+p em
+{
+	color: rgb(250,200,150); 
+	font-size: 5.5em;
+}
+
+
+#red
+{
+	color : red ;
+	font-weight: bold;
+}
+
+#purple
+{
+	color : purple;
+	font-style : italic;
+	text-decoration: overline;
+}
+
+#rakk
+{
+	float: left;
+}
+}
+
+.blue
+{
+	color: blue ;
+	font-family:"Arial Black",Arial;            /*id pour le seul texte à écrire en bleu */
+}
+
