@@ -1,0 +1,85 @@
+
+
+h1
+{
+	text-transform: uppercase;
+}
+
+header
+{
+	display : flex;
+	border: 2px dashed rgba(170, 50, 220, .6);
+	justify-content: space-around;
+}
+
+img
+{
+	border-radius: 50%;
+}
+
+	
+
+
+
+li {list-style-type: none;}
+
+
+
+li:before 
+{
+	content: "//"; 
+	
+}
+
+.one  li:nth-child(1):before 
+{
+	content: "**"; 
+	
+}
+
+.entete:first-child
+{
+	border : 2px solid black;
+	
+
+
+}
+
+.entete:nth-child(2)
+{
+	border : 2px solid black;
+	margin-right: 30%;
+	height : 7.2em;
+}
+
+
+.trait
+{
+	border-bottom: 3px solid ;
+	border-color: #00796B;
+}
+
+.bordure_black
+{
+   
+   border: 6px black solid;
+   background: black;
+   color: #FFEB3B;
+   margin-right : 70%;
+   padding-left : 10%;
+}
+
+aside
+{
+	background-color: #FFEB3B;
+}
+#prenom
+{
+	color: #FFEB3B;
+}
+
+#souligner_devel
+{
+	text-decoration: underline ;
+	text-decoration-color:  #9C27B0;
+}
