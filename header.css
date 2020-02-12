@@ -1,0 +1,82 @@
+header
+{
+    display : flex;
+   
+    
+}
+
+@media screen and (max-width: 1024px)
+{
+    header
+    {
+        flex-direction: column;
+    }
+    .entete:first-child
+	{
+	    width: 100%;
+	    height: 125px;
+	    background-color: #FDD835;
+	}
+	img
+	{
+
+		overflow:hidden;
+	    border-radius:10px;
+	    -webkit-border-radius:50px;
+	    width:100px;
+	    -moz-border-radius:50px;
+	    height:100px;
+	    margin : auto;
+	    margin-left: 40%;
+	    margin-top: 2%;
+	    
+	}
+
+}
+
+@media screen and (min-width: 1024px)
+{
+    
+    .entete:first-child
+	{
+	    width: 25%;
+	    background-color: #FDD835;
+	}
+	img
+	{
+
+		overflow:hidden;
+	    border-radius:10px;
+	    -webkit-border-radius:50px;
+	    width:150px;
+	    -moz-border-radius:50px;
+	    height:150px;
+	    margin : auto;
+	    margin-left: 30%;
+	    margin-top: 8%;
+	}
+
+   
+}
+
+
+
+
+.entete:nth-child(2)
+{
+    
+    width: 66.7%;
+    margin-left: 5%;
+    margin-top: 2.5%;
+}
+
+#prenom
+{
+    color: #FDD835
+}
+
+#souligner_devel
+{
+    text-decoration: underline ;
+    text-decoration-color:  #FDD835;
+}

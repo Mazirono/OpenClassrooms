@@ -1,0 +1,60 @@
+h1
+{
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 1024px)
+{
+  h1 , h2 ,p
+  {
+    text-align: center;
+  }
+}
+ 
+
+
+
+li {list-style-type: none;}
+
+
+
+li:before 
+{
+    content: ""; 
+    
+}
+
+.section1_element li:nth-child(1):before 
+{
+    content: ""; 
+    
+}
+
+
+
+
+.trait
+{
+    border-bottom: 3px solid ;
+    border-color: #FDD835;
+}
+
+.bordure_black
+{
+   
+   border: 6px black solid;
+   background: black;
+   color: #FDD835;
+   
+}
+aside .fas
+ {
+  color: #000000;
+ }
+
+ .fas
+ {
+  color: #FDD835;
+ }
+

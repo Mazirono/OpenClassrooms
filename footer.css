@@ -1,0 +1,73 @@
+footer
+{
+    display : flex;
+    
+    
+    
+}
+@media screen and (max-width: 1024px)
+{
+    footer
+    {
+        flex-direction: column;
+    }
+    .pied_dpage:first-child
+	{
+		background-color: #FDD835;
+	    width: 100%;
+	    border :1px solid black;
+	    
+	}
+}
+@media screen and (min-width: 1024px)
+{
+    .pied_dpage:first-child
+	{
+		background-color: #FDD835;
+	    width: 25%;
+	    margin-left: 1px;
+	}
+}
+
+i
+{
+	margin : auto;
+}
+#icones
+{
+
+	display: flex;
+	
+	justify-content: center;
+
+}
+
+.article_footer
+{
+	display : flex;
+	
+	justify-content: space-around;
+}
+
+.element_artfoot:nth-child(2) 
+{
+    
+     width: 100px;
+     
+
+   
+}
+
+.element_artfoot:nth-child(1) 
+{
+    
+    width: 100px;
+
+}
+
+
+
+.pied_dpage:nth-child(2)
+{
+	margin-left: 10%;
+}
