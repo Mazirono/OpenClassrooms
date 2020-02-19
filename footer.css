@@ -1,73 +1,81 @@
-footer
-{
-    display : flex;
+
     
     
-    
-}
-@media screen and (max-width: 1024px)
-{
-    footer
-    {
-        flex-direction: column;
-    }
-    .pied_dpage:first-child
-	{
-		background-color: #FDD835;
-	    width: 100%;
-	    border :1px solid black;
-	    
-	}
-}
+
 @media screen and (min-width: 1024px)
 {
-    .pied_dpage:first-child
+	footer
 	{
-		background-color: #FDD835;
-	    width: 25%;
-	    margin-left: 1px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
 	}
+   .element_bas:first-child 
+    {
+    	width: 25%;
+    	background-color: #FDD835;
+    	padding-top: 5%;
+    }
+    .element_bas:nth-child(2)
+	{
+		width: 69.2%;
+		
+		margin-bottom: 300px;
+	}
+	#recommandations
+	{
+		display: flex;
+		margin-left: 5%;
+		border-bottom: 3px solid ;
+	    border-color: #FDD835;
+	}
+	#section3_recommandations
+	{
+		display: flex;
+		
+		padding-left : 0%;
+		margin-left: 1.3%;
+	}
+	
+
 }
 
-i
+
+
+
+
+
+
+.section3_element
 {
-	margin : auto;
+	margin-top: 3%;
 }
+
+.section3_element:nth-child(2)
+{
+	margin-left: 20%;
+}
+
+
+
+.fa-pencil-alt
+{
+  margin-right : 5%;
+}
+
 #icones
 {
-
 	display: flex;
-	
 	justify-content: center;
-
 }
 
-.article_footer
+.fa-gamepad ,.fa-futbol
 {
-	display : flex;
-	
-	justify-content: space-around;
-}
-
-.element_artfoot:nth-child(2) 
-{
-    
-     width: 100px;
-     
-
-   
-}
-
-.element_artfoot:nth-child(1) 
-{
-    
-    width: 100px;
-
+	margin-right:4%;
 }
 
 
-
-.pied_dpage:nth-child(2)
+.fa-book-reader
 {
-	margin-left: 10%;
+	margin-left: 1%;
 }

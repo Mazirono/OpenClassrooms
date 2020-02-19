@@ -1,54 +1,67 @@
-#mil
-{	
-    display : flex;
-    justify-content: space-between;
-    
-    flex-wrap: wrap;
-     
-}
-
-@media screen and (max-width: 1024px)
-{
-    #mil
-    {
-        flex-direction: column;
-    }
-    .element_milieu:first-child 
-	{
-		width: 100%;
-		background-color: #FDD835;
-	}    
-	.element_milieu:nth-child(3) 
-	{
-  	
-    width: 100%;
-    background-color: #FDD835;
-	}
-
-}
 
 @media screen and (min-width: 1024px)
 {
-   
+	#mil
+	{	
+	    display : flex;
+	    justify-content: space-between;
+	    
+	    flex-wrap: wrap;
+	     
+	}
+
     .element_milieu:first-child 
 	{
 		width: 25%;
 		background-color: #FDD835;
 	}
 
+	.element_milieu:nth-child(2) 
+	{
+	     
+		width: 66.7%;
+	}
+
+
 	.element_milieu:nth-child(3) 
 	{
   	
-    width: 25%;
-    background-color: #FDD835;
+	    width: 25%;
+	    background-color: #FDD835;
+	    border : 1px solid black;
+	}
+	#a_propos
+	{
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-top:5%;
+	}
+	#a_propos p
+	{
+
+		text-align: justify;
+	}
+	.element_milieu:nth-child(4) 
+	{
+	  
+	    width: 66.7%;
+	}
+	.liste_element:nth-child(2)
+	{	
+		
+		margin-left: 6%;
+	
 	}
 
+
 }
+
+
 
 aside  p , aside li
 {
     text-align : center;
-    word-wrap: break-word;
+    
 
 
 }
@@ -57,11 +70,24 @@ aside  h1
     text-align : center;
     
 }
+
+
+
+#formation
+{
+	display: flex;
+	border-bottom: 3px solid ;
+    border-color: #FDD835;
+}
 #section1_formation
 {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 3%;
+
+
+	
+	
 }
 
 .section1_element:first-child
@@ -81,7 +107,11 @@ aside  h1
 
 .section1_element:nth-child(3)
 {
+
 	width: 20%;
+	
+
+
 	
 }
 
@@ -140,27 +170,32 @@ aside  h1
 
 
 
-.element_milieu:nth-child(2) 
-{
-     
-	width: 66.7%;
-	
-	
-   
-}
 
 
-.element_milieu:nth-child(4) 
-{
-  
-    width: 66.7%;
-   
-
-}
-/*
-#fontawesome2
+#experience_professionelle
 {
 	display: flex;
+	border-bottom: 3px solid ;
+    border-color: #FDD835;
 }
 
-*/
+.fa-briefcase
+{
+
+  margin-right : 5%;
+}
+
+
+.liste
+{
+ 	display: flex;
+ 	
+	width: 100%;
+}
+
+.liste + li
+{
+	margin-left: 17%;
+}
+
+
