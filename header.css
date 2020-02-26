@@ -1,11 +1,14 @@
-
+img
+	{
+		border-radius: 50%;
+	}
 
 @media screen and (min-width: 1024px)
 {
 		header
 	{
 	    display : flex;
-	   
+	    
 	    
 	}
 
@@ -16,6 +19,14 @@
 	    background-color: #FDD835;
 	    
 	}
+		.element_haut:nth-child(2)
+	{
+	    
+	    width: 66.7%;
+	    margin-left: 5%;
+	    margin-top: 2.5%;
+	}
+
 	img
 	{
 		width: 55%;
@@ -30,13 +41,6 @@
 }
 
 
-.element_haut:nth-child(2)
-{
-    
-    width: 66.7%;
-    margin-left: 5%;
-    margin-top: 2.5%;
-}
 
 #prenom
 {

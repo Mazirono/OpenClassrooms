@@ -1,3 +1,14 @@
+
+@media screen and (min-width: 1024px)
+{
+  aside ul
+{
+  margin-right: 18%;
+}
+
+}
+
+
 h1
 {
     text-transform: uppercase;
@@ -5,15 +16,17 @@ h1
 }
 
 
-@media screen and (max-width: 1024px)
-{
-  h1 , h2 ,p
-  {
-    text-align: center;
-  }
-}
- 
 
+
+
+
+body
+{ 
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    width: 100%;
+}
 
 
 li 
@@ -54,6 +67,7 @@ li:before
    border: 6px black solid;
    background: black;
    color: #FDD835;
+   text-align: center;
    
 }
 aside .fas

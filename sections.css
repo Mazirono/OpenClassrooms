@@ -14,7 +14,11 @@
 	{
 		width: 25%;
 		background-color: #FDD835;
+
 	}
+
+
+
 
 	.element_milieu:nth-child(2) 
 	{
@@ -28,13 +32,14 @@
   	
 	    width: 25%;
 	    background-color: #FDD835;
-	    border : 1px solid black;
+	   
 	}
+
 	#a_propos
 	{
 		padding-left: 10%;
 		padding-right: 10%;
-		padding-top:5%;
+		padding-top:5%;*
 	}
 	#a_propos p
 	{
@@ -65,11 +70,7 @@ aside  p , aside li
 
 
 }
-aside  h1
-{
-    text-align : center;
-    
-}
+
 
 
 
